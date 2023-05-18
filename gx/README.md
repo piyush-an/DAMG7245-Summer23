@@ -15,7 +15,7 @@
 
 ## Dataset
 
--   [faa_registration.csv](/gx2/data/faa_registration.csv)
+-   [faa_registration.csv](/gx/data/faa_registration.csv)
 
 ---
 
@@ -36,18 +36,22 @@ pip install great_expectations==0.15.46
 
 3. Verify the version
 
-```bash
+```bash`
 python --version
-# Python 3.10.6
+
+# Python 3.9.13
+
 great_expectations --version
+
 # great_expectations, version 0.15.46
-```
+
+````
 
 4. Initialize at the base dir
 
 ```bash
 great_expectations init
-```
+````
 
 Confirm the prompt
 

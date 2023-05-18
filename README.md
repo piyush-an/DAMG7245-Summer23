@@ -7,4 +7,4 @@ This repository will source code for the demos, so bookmark this repo and also e
 
 1. git demo - Using git and github [link](./git_demo/)
 2. ydata-profiling / Pandas Profiling - For EDA [link](./ydata-profiling/)
-3. 
+3. Great Expectations - [link](./gx)
