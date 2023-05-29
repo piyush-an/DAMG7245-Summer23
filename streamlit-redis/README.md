@@ -18,3 +18,25 @@ Streamlit is an open-source app framework for Machine Learning and Data Science 
     ```bash
     make local-down
     ```
+
+### Run on Cloud
+1. Setup a managed Redis Database
+    - https://redis.com/redis-enterprise-cloud/pricing/
+    - https://devcenter.heroku.com/categories/heroku-redis
+2. Update the [.env_cloud](./.env_cloud) file, Example
+    ```bash
+    DB_HOST=redis-service.com
+    DB_PORT=1234
+    DB_USERNAME=default
+    DB_PASSWORD=abc123xyz[label](app://resources/notifications.html)
+    ```
+3. Start docker containers
+    ```bash
+    make cloud-up
+    ```
+4. Visit
+    - Streamlit : http://localhost:8095/
+5. Stop docker containers
+    ```bash
+    make cloud-down
+    ```
