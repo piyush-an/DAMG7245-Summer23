@@ -28,7 +28,7 @@ Streamlit is an open-source app framework for Machine Learning and Data Science 
     DB_HOST=redis-service.com
     DB_PORT=1234
     DB_USERNAME=default
-    DB_PASSWORD=abc123xyz[label](app://resources/notifications.html)
+    DB_PASSWORD=abc123xyz
     ```
 3. Start docker containers
     ```bash
@@ -40,3 +40,5 @@ Streamlit is an open-source app framework for Machine Learning and Data Science 
     ```bash
     make cloud-down
     ```
+6. Deploy on Streamlit Cloud
+
