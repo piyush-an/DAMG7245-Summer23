@@ -1,0 +1,6 @@
+fastapi
+sentence-transformers
+gunicorn
+# Dev Dependencies
+httpx
+pytest

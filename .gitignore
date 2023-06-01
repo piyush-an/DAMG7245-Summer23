@@ -200,3 +200,5 @@ git_demo/demo_venv
 streamlit-redis/streamlit/.venv_streamlit
 gx/gx
 !example_terraform.tfvars
+fastapi-streamlit/fastapi/.venv_fastapi
+fastapi-streamlit/streamlit/.venv_streamlit
