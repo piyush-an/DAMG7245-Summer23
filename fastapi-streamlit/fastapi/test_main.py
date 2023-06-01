@@ -8,7 +8,7 @@ def test_tokenize_invalid_service():
     response = client.post(
         url="/api/v1/tokenize",
         json={
-            "service": "bard",
+            "service": "bardv2",
             "apikey": "generatedapikeytoken",
             "content": ["This is an example sentence"]
         }
