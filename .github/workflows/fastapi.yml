@@ -6,7 +6,7 @@ on:
       - 'fastapi-streamlit/fastapi/**' # TODO: change to your path
 
 jobs:
-  build:
+  unit-tests:
     runs-on: ubuntu-latest
     steps:
       - 
@@ -29,4 +29,3 @@ jobs:
         run: |
           pipenv install -r requirements.txt 
           pipenv run pytest -v
-          
