@@ -309,6 +309,8 @@ services:
     ports:
         - "30001:6379" 
         - "30002:8001"
+    volumes:
+      - redis-stack-data:/data
     restart: always
 
   # Backend
@@ -337,3 +339,4 @@ services:
 
 volumes:
   postgres-db-volume:
+  redis-stack-data:
