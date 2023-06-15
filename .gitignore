@@ -51,6 +51,7 @@ coverage.xml
 .pytest_cache/
 cover/
 
+
 # Translations
 *.mo
 *.pot
@@ -203,3 +204,5 @@ gx/gx
 fastapi-streamlit/fastapi/.venv_fastapi
 fastapi-streamlit/streamlit/.venv_streamlit
 !assignment1/.env
+*_key.json
+.venv_*
